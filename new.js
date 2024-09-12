@@ -75,19 +75,3 @@ function waitingTime(waitingTimes, serialNumber) {
 
     return totalWaitTime;
 };
-
-console.log(calculateTax(5000, 5000));
-
-console.log(sendNotification("zihad.ph@gmail.com"));
-
-console.log(checkDigitsInName("Raj123"));
-
-let student1 = {
-    testScore: 45,
-    schoolGrade: 25,
-    isFFamily: true
-};
-
-console.log(calculateFinalScore(student1));
-
-console.log(waitingTime([3,5,7,11,6],10));
